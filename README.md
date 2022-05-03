@@ -48,7 +48,16 @@
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 ❤️ Every Module or class should have responsibility over a single part or the functionality provided by the software and that responsibility should be entirely encapsulated by the class.
- 
+
+❤️ each class and module should focus on a single task at a time
+
+❤️ everything in the class should be related to that single purpose 
+
+❤️ there can be many members in the class as long as they related to the single responsibility
+
+❤️ with SRP, classes become smaller and clearner
+
+❤️ code is less gragile. 
 
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
@@ -128,7 +137,7 @@
 ❤️
 
 ❤️
-❤
+❤️
 
 ❤️
 ❤️
