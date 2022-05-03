@@ -37,11 +37,11 @@
 
 **🌟SOLID Acronym**
 
-❤️S❤️ single responsibility principle(SRP)
-❤️O❤️ open closed principle(OSP)
-❤️L❤️ Liskov substitution Principle(LSP)
-❤️I❤️ Interface segregation Principle(ISP)
-❤️D❤️ Dependency Inversion Priciple(DIP)
+>>❤️S❤️ single responsibility principle(SRP) - maintainability
+>>❤️O❤️ open closed principle(OSP) - extenability
+>>❤️L❤️ Liskov substitution Principle(LSP) - reuability
+>>❤️I❤️ Interface segregation Principle(ISP) - flexibility
+>>❤️D❤️ Dependency Inversion Priciple(DIP) - loose coupling
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 >>**🌟single responsibility principle(SRP)**
