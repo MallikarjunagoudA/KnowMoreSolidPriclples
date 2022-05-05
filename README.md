@@ -43,9 +43,8 @@
 >>❤️I❤️ Interface segregation Principle(ISP) - flexibility
 >>❤️D❤️ Dependency Inversion Priciple(DIP) - loose coupling
 
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+
 >>**🌟single responsibility principle(SRP)**(add sutract mul div calculate example)
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 ❤️ Every Module or class should have responsibility over a single part or the functionality provided by the software and that responsibility should be entirely encapsulated by the class.
 
@@ -60,9 +59,7 @@
 ❤️ code is less gragile. 
 
 
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 **🌟Liskov substitution Principle(LSP)** (exception for a ocp extension example of bonus for temp permenenet and contract)
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 
 ❤️ If the program module is using a base class, then the reference to the base class can be replaced with a derived class without affecting the functionality of the program module.
@@ -86,10 +83,7 @@
 
 
 
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 **🌟open closed principle(OCP)**(example of bonus for temp permenenet and contract)
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-
 
 ❤️ "The software entities should be open for extension, but closed for modification."
   
@@ -112,12 +106,7 @@ if not followed
 
 
 
-
-
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 **🌟Interface segregation Principle(ISP)**(printer example)
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-
 
 
 
@@ -134,65 +123,18 @@ if not followed
 
 
 
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-**🌟Dependency Inversion Priciple(DIP)**(tightly and loosly coupling)
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+
+**🌟Dependency Inversion Priciple(DIP)**(tightly and loosly coupling repo and irepo and controller.)
+
 
 
 ❤️ Abstractions should not depend on the details whereas the details should depend on abstractions.
 
 ❤️ High-level modules should not depend on low level modules.
 
+❤️ Abstractions should not depends on details. details should depend on abstraction.
 
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+❤️ the interaction between high level and low level modules should be thought of as an abstract interaction between them.
 
-❤️
 
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️
-
-❤️
-❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+THANK YOU MEET IN NEXT CONCEPT......................
