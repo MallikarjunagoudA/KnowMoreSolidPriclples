@@ -90,7 +90,14 @@
 
 ❤️"**Many client-specific interfaces are better than one general-purpose interface**"
 
-❤️we should not enforce clients to implement interfaces that they don't use. instead of crating one big interface we van break down it to smaller interfaces
+❤️ we should not enforce clients to implement interfaces that they don't use. instead of crating one big interface we van break down it to smaller interfaces
+
+❤️ No client should be forced to depend on methods it does not use.
+
+❤️ one fat interface need to be split to many smaller and relevant interfaces so thta clients can know about the interfaces that are relevant to them.
+
+
+
 
 
 
