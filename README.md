@@ -71,13 +71,30 @@
 
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-**🌟open closed principle(OSP)**
+**🌟open closed principle(OCP)**
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 
 ❤️ "The software entities should be open for extension, but closed for modification."
   
 ❤️ The design and writing of the code should be done in a way that new functionality should be added with minimum changes in the existing code.
+
+❤️ Any new functionality should be implemented by addeding new classes, attribures and methods, instead of changing the current ones or existing ones. 
+
+>>implementation guidelines
+=>the simplest way to apply OCP is to impllement the new functionality on new derived classes.
+=> allow clients to adcess the original class with abstract interface.
+
+
+why? if not followed then what might will happen?
+if not followed
+=> End up testing the entire functionality.
+=> QA team need to test the entire flow.
+=> costly process for the organization.
+=> Maintainance overheads increas on the classes.
+=> Breaks the SRP.
+
+
 
 
 
