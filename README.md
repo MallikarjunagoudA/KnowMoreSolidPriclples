@@ -44,7 +44,7 @@
 >>❤️D❤️ Dependency Inversion Priciple(DIP) - loose coupling
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
->>**🌟single responsibility principle(SRP)**
+>>**🌟single responsibility principle(SRP)**(add sutract mul div calculate example)
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 ❤️ Every Module or class should have responsibility over a single part or the functionality provided by the software and that responsibility should be entirely encapsulated by the class.
@@ -61,17 +61,33 @@
 
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-**🌟Liskov substitution Principle(LSP)**
+**🌟Liskov substitution Principle(LSP)** (exception for a ocp extension example of bonus for temp permenenet and contract)
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 
-❤️If the program module is using a base class, then the reference to the base class can be replaced with a derived class without affecting the functionality of the program module.
+❤️ If the program module is using a base class, then the reference to the base class can be replaced with a derived class without affecting the functionality of the program module.
 
-❤️we can also state that derived types must be substitutable for their base types.
+❤️ we can also state that derived types must be substitutable for their base types.
+
+❤️ S is subtype of T, then objects of type T may replaecd with objexts of type S.
+
+❤️ derived types must be completly substityable for teir base types.
+
+❤️ liskov substitution principle is a particular definition of a subtypeing relation called (strong) behaviral subtyping.
+
+>>implementation guidlines
+
+=> no new exceptions can be thrown by the subtype.
+=>clients should not know which specifix subtype they are calling
+=> new derived classes just extend without replacing the fuctionality of old classes.
+
+
+
+
 
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-**🌟open closed principle(OCP)**
+**🌟open closed principle(OCP)**(example of bonus for temp permenenet and contract)
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 
@@ -99,7 +115,7 @@ if not followed
 
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-**🌟Interface segregation Principle(ISP)**
+**🌟Interface segregation Principle(ISP)**(printer example)
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 
@@ -111,7 +127,7 @@ if not followed
 
 ❤️ No client should be forced to depend on methods it does not use.
 
-❤️ one fat interface need to be split to many smaller and relevant interfaces so thta clients can know about the interfaces that are relevant to them.
+❤️ one fat interface need to be split to many smaller and relevant interfaces so that clients can know about the interfaces that are relevant to them.
 
 
 
@@ -119,7 +135,7 @@ if not followed
 
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
-**🌟Dependency Inversion Priciple(DIP)**
+**🌟Dependency Inversion Priciple(DIP)**(tightly and loosly coupling)
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 
